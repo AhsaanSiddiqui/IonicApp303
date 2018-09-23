@@ -1,0 +1,277 @@
+/* Empty. Add your own CSS if you like */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+input, button, select, textarea {
+	font-family: 'Montserrat', sans-serif;
+}
+.bar.bar-stable {
+  border-color: #b2b2b2;
+  background-color: transparent;
+  background-image: none;
+  color: #444;
+  border: 0;
+}
+.bar-stable .button.button-icon {
+  border-color: transparent;
+  background: #01233f;
+  color: #fff;
+  border-radius: 0;
+  min-width: 40px;
+}
+.main_div {
+    background-color: aliceblue;
+    text-align: center;
+    background-image: linear-gradient(to right top, #01233f, #004a67, #00737a, #009b76, #80bf65);
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.main_div:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../img/tex.png);
+    background-size: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+.header_area {
+	padding-top: 50px;
+}
+.register_page .header_area {
+    padding-top: 30px;
+}
+.register_page .header_area img {
+    margin-bottom: 5px;
+}
+.header_area img {
+	width: 35%;
+	margin-bottom: 20px;
+}
+.main_div .col-90 {
+	margin: 0 auto;
+}
+.main_div h1.title {
+	color: #fff;
+	margin: 45px 0 20px;
+	font-family: 'Cookie', cursive;
+	font-size: 60px;
+}
+.inner_div p, .fgt {
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	margin: 0px 0 15px;
+	line-height: 22px;
+}
+.inner_div .list-inset {
+	background-color: transparent;
+	margin: 3px;
+}
+.inner_div .item {
+	margin: 0;
+	border-width: 0;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	font-size: 22px;
+	margin-bottom: 10px;
+	padding: 11px 18px 11px 10px;
+	border-radius: 0;
+}
+.inner_div .item input {
+	color: #fff;
+  padding-top: 0;
+  height: 22px;
+  font-size: 15px;
+  line-height: 16px;
+}
+.inner_div .item .input_f {
+	color: #fff;
+	padding-right: 0 !important;
+}
+.inner_div ion-icon {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 15px;
+  padding-right: 14px;
+  font-size: 16px;
+}
+.inner_div .placeholder-icon.ion-key {
+	padding-bottom: 11px;
+    transform: rotate(222deg);
+    padding-left: 18px;
+    padding-right: 0;
+}
+
+input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input::-webkit-input-placeholder {
+  text-indent: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.disable-pointer-events {
+    pointer-events: none;
+    color: #fff;
+    float: right;
+    font-size: 15px;
+}
+.no_bd .item {
+	border-bottom: 0;
+	display: inline-block;
+	float: right;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	padding-left: 30px;
+	padding-top: 0;
+	margin-bottom: 25px;
+}
+.no_bd .item-checkbox .checkbox {
+    position: absolute;
+    top: 50%;
+    right: 131px;
+    left: auto;
+    z-index: 3;
+    margin-top: -7px;
+    padding: 0;
+    padding-right: 5px;
+}
+.no_bd label.item.item-checkbox.ng-empty.ng-valid {
+    border-bottom: 0;
+}
+.no_bd .checkbox input, .no_bd .checkbox-icon {
+	width: 16px;
+	height: 16px;
+}
+.no_bd .checkbox input:before, .no_bd .checkbox-icon:before {
+	border-radius: 0;
+}
+.no_bd .checkbox input:after, .no_bd .checkbox-icon:after {
+	width: 10px;
+	height: 5px;
+	top: 31%;
+	left: 19%;
+}
+.inner_div .col-90 {
+	width: 100%;
+	max-width: 100%;
+	flex: 0 0 100%;
+}
+.btn_div .button.button-light {
+    border-color: transparent;
+    background-color: #fff;
+    color: #444;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 7px 20px;
+}
+button.button.button-light.log_in {
+    background-color: #01233f;
+    border-color: transparent;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+button.button.button-light.sign_up {
+    background-color: #222222;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+.bar.bar-balanced.bar-footer {
+    background-image: none;
+    background-color: #f5f5f5;
+    color: #000;
+    border: 0;
+}
+.bar.bar-balanced .title {
+    color: #333;
+}
+.forgot_area span.bdlf {
+    position: relative;
+    display: block;
+    margin: 20px 0 15px;
+    color: #fff;
+    font-size: 18px;
+}
+.forgot_area span.bdlf:before, 
+.forgot_area span.bdlf:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: none;
+}
+.forgot_area span.bdlf:after {
+	left: auto;
+	right: 0;
+}
+.forgot_area p.fgt span {
+	color: rgba(255, 255, 255, 0.69);
+}
+.social_ic li{
+	display: inline-block;
+}
+.social_ic a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 15px;
+	width: 34px;
+	height: 34px;
+	display: flex;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 15px;
+}
+.forgot_area {
+    position: relative;
+    z-index: 2;
+}
+.footer_btm {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.31);
+    z-index: 2;
+}
+.footer_btm p {
+	color: rgba(255, 255, 255, 0.69);
+	margin: 0;
+	padding: 0;
+}
+.footer_btm p a {
+	color: #fff;
+	text-decoration: none;
+}
+.list .item {
+  border-color: #000;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}

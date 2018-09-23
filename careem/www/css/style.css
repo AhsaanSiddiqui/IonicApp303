@@ -1,0 +1,63 @@
+/* Empty. Add your own CSS if you like */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_div {
+    text-align: center;
+    background: url(../img/careembg.jpg) no-repeat;
+    background-size: auto;
+    background-position: 60% top;
+    height: 100vh;
+}
+.header_area {
+    margin: 130px 0 40px;
+}
+.header_area img {
+	width: 60%;
+}
+.main_div .col-90 {
+	margin: 0 auto;
+}
+.input_f::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input_f:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input_f::-webkit-input-placeholder {
+  text-indent: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.center_area *{
+	color: #fff;
+}
+.center_area h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.center_area p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 26px;
+}
+.btn_div {
+	margin-top: 100px;
+}
+.btn_div .button {
+	background-color: transparent;
+	border: 0;
+	font-size: 18px;
+}
+.btn_div .button:focus, .btn_div .button.activated {
+	background-color: transparent;
+}
+.btn_div .sign_in, .btn_div .sign_in.activated{
+	background-color: #28bc4e;
+}
