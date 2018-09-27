@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+body {
+	font-family: 'Montserrat', sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+.mainDiv input {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  border: 2px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 15px 0;
+}
+.mainDiv p {
+	line-height: 26px;
+}
+.mainDiv span {
+	float: right;
+}
